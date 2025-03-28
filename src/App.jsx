@@ -1,13 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <p>
-        Hello you all beautiful people, let's create some magic with React!!
-        🚀🚀
-      </p>
+      <Home />
     </>
   );
 }
